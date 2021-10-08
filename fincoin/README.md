@@ -1,4 +1,4 @@
-### Fincoin
+# <p align = "center"> Fincoin </p>
                         
 ## Introduction:
 India is a Country of a Billion People but Still less than 10% of the population invest in the stocks and crypto the a major reason for this is lack of knowledge and the risk involved
@@ -29,11 +29,6 @@ We acknowledge Hackslash Club(NITP) for giving us an opportunity
                 to showcase our skills through this real-world problem solving 
                 project and acquire new skills alongside.
 
-## Web Coordinators(Team 405 Found)
-Vikas Kumar Gond
-Pulkit Kumar Agarwal
-Pragati Priya
-Harsh Anand
 
 
 
