@@ -20,7 +20,7 @@ This is a Simple Financial app through which you'll get
 		Live Demo: 
 		Design(Figma) : 
 ## Technology Used:
-MERN(MongoDB,ExpressJS,ReactJS,NodeJS),Stack,Tenserflow Hub
+MERN(MongoDB,ExpressJS,ReactJS,NodeJS),Stack,Tensorflow Hub
    Contributing:All the team members will be assigned their specific components to 
                 Design as per the Design and Functionality. However they 
                 can also raise an issue in the exiting one.
