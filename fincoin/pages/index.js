@@ -1,9 +1,9 @@
+import Layout from '../components/Layout'
 export default function Home() {
   return (
-    <>
-      <div>
-        Index Page
-      </div>
-    </>
+    <Layout title = "Home Page">
+      {/* USE LAYOUT IN EVERYPAGE, HAVING PROPS LIKE    title, description, tagname  just as above*/}
+      {/* you can leave passing props, as Layout contains some default value set in ../components/Layout */}
+    </Layout>
   )
 }

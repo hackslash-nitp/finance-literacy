@@ -1,5 +1,7 @@
 # <p align = "center"> Fincoin </p>
-                        
+
+- use Layout.js ( instead of simple div ) for every page, mentioned in components/Layout.js
+
 ## Introduction:
 India is a Country of a Billion People but Still less than 10% of the population invest in the stocks and crypto the a major reason for this is lack of knowledge and the risk involved
 Here comes the FinCoin it's an easy to use Web Application 

@@ -1,4 +1,4 @@
-<code> <p align = "center">Switch to Fincoin folder for frontend part</p></code>
+<code><p align = "center">Switch to Fincoin folder for frontend part</p></code>
 
 # <p align = "center">Fincoin</p>
                         
