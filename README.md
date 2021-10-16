@@ -1,5 +1,5 @@
 
-# <p align = "center">Fincoin</p>
+# <p align = "center">Fyncoin</p>
                         
 ## Introduction:
 India is a Country of a Billion People but Still less than 10% of the population invest in the stocks and crypto the a major reason for this is lack of knowledge and the risk involved
