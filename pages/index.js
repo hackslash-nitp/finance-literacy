@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import  styled from 'styled-components'
-
+import GetNow from '../components/home/getNow';
 
 const ModiContainer =  styled.div`{
   color: purple
@@ -9,6 +9,7 @@ const ModiContainer =  styled.div`{
 export default function Home() {
   return (
     <Layout title = "Home Page">
+    <GetNow />
       <ModiContainer>
         Like this random styled-component, we have to render every page
       </ModiContainer>
