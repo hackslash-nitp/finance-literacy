@@ -1,4 +1,4 @@
-import classes from "./getNow.module.css";
+import { TextDiv,TextH2,TextH1,TextP,Button,ImageDiv } from './getNow.style'
 
 import Image from 'next/image';
 import Head from 'next/head'
@@ -12,18 +12,18 @@ function GetNow() {
           rel="stylesheet"
         />
       </Head>
-      <div className={classes.text}>
-        <h2>Crypto</h2>
-        <h1>Explore the Crypto world.</h1>
-        <p>
+      <TextDiv>
+        <TextH2>Crypto</TextH2>
+        <TextH1>Explore the Crypto world.</TextH1>
+        <TextP>
           Best in class responsive webpages and landing pages for your business.
           Get one for yourself now at lowest cost ever.
-        </p>
-        <button className={classes.actions}>Get Now</button>
-      </div>
-      <div className={classes.image}>
+        </TextP>
+        <Button>Get Now</Button>
+      </TextDiv>
+      <ImageDiv>
         <Image src="/getNowImage.png" alt="" width={710} height={680}/>
-      </div>
+      </ImageDiv>
     </section>
   );
 }
