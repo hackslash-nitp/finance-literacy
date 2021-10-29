@@ -9,6 +9,7 @@ width: 552px;
 height: 108px;
 left: 89px;
 top: 147.1px;
+text-align:justify;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
@@ -22,7 +23,7 @@ width: 510px;
 height: 180px;
 left: 90px;
 top: 303.1px;
-
+text-align:justify;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -31,6 +32,9 @@ line-height: 36px;
 
 color: #676767;
 `;
+export const Para = styled.p`
+text-align:justify;
+`
 export const Container2 = styled.div`
     position: absolute;
     width: 571px;
