@@ -5,7 +5,7 @@ font-family: Poppins;
 font-style: normal;
 width:50%;
 display:inline-block;
-margin: 50px 100px 100px 300px;
+margin: 2% 1.5% 3% 12%;
 `;
 
 export const TextH2 = styled.h2`
@@ -45,4 +45,5 @@ color: #FFFFFF;
 export const ImageDiv = styled.div`
 width:710px;
 display:inline-block;
+margin-left:1.5%;
 `;
