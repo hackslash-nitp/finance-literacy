@@ -22,7 +22,7 @@ function GetNow() {
         <Button>Get Now</Button>
       </TextDiv>
       <ImageDiv>
-        <Image src="/getNowImage.png" alt="" width={710} height={680}/>
+        <Image src="/getNowImage.png" alt="" width={588} height={563}/>
       </ImageDiv>
     </section>
   );
