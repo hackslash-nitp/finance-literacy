@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout title = "Home Page">
       <ModiContainer>
-        Like this random styled-component, we have to render every page
+        
       </ModiContainer>
       <Pricing/>
 
