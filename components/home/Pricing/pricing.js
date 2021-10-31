@@ -13,26 +13,26 @@ function Pricing()
             <Card>
               <CardCategory>Basic Plan</CardCategory>
              <CardPrice>$14.99</CardPrice>
-              <CardFeatures1 >
+              <CardFeatures style={{paddingBottom:"8%"}}>
               <FeaturesListElement>First Feature</FeaturesListElement>
               <FeaturesListElement>Second Feature</FeaturesListElement>
               <FeaturesListElement>Third Feature</FeaturesListElement>
               <FeaturesListElement>Fourth Feature</FeaturesListElement>
               
-              </CardFeatures1>
+              </CardFeatures>
               
-              <GetPlan >Get Plan</GetPlan>
+              <GetPlan>Get Plan</GetPlan>
               </Card>
             <Card>
              <CardCategory>Advanced Plan</CardCategory>
               <CardPrice>$29.99</CardPrice>
-              <CardFeatures2>
+              <CardFeatures>
               <FeaturesListElement>First Feature</FeaturesListElement>
               <FeaturesListElement>Second Feature</FeaturesListElement>
               <FeaturesListElement>Third Feature</FeaturesListElement>
               <FeaturesListElement>Fourth Feature</FeaturesListElement>
               <FeaturesListElement>Fifth Feature</FeaturesListElement>
-              </CardFeatures2>
+              </CardFeatures>
               <GetPlan>Get Plan</GetPlan>
               </Card>
             </CardContainer>
@@ -43,29 +43,28 @@ function Pricing()
 const Container = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); display: flex;
     justify-content: space-evenly;
-    padding-top: 4.5vw;
-    padding-bottom: 4.5vw;
+    padding-top: 16%;
+    padding-bottom: 18%;
     background-color:rgba(239, 239, 239,1);
     font-family: 'Poppins', sans-serif;
 `;
 const Intro= styled.div`
-   width:40%;
+   width:37.5%;
    padding-left: 7%;
    margin-top: 0px;
-   height: max-content;
 `;
 const IntroLabel=styled.p`
-  font-size: 2.3vw;
+  font-size:225%;
   color: #676767;
   
 `;
 const IntroHeading=styled.p`
-    font-size:  2.9vw;
+    font-size: 281.25%;
     padding-right:35%;
     margin-top: 0%;
 `;
 const IntroDescription= styled.p`
-    font-size:  1.7vw;
+    font-size: 168.75%;
     padding-right:20%;
     margin-top: 0%;
     color: #676767;
@@ -83,17 +82,15 @@ const Card=styled.div`
     text-align: center;
     border-radius: 5%;  
     padding-bottom: 5%;
-   height: max-content;
-
 `;
 const CardCategory= styled.p`
- font-size:  1.7vw;
+ font-size: 168.75%;
  font-weight:bolder;
 
 `;
 const CardPrice=styled.p`
-   font-size: 2.3vw;
-   margin-top: 0;
+   font-size: 225%;
+   padding-top: 2%;
    color: #676767;
  font-weight:bold;
 `;
@@ -102,38 +99,18 @@ const GetPlan=styled.button`
     color:rgba(239, 239, 239,1);
     border-radius: 7%;
     width:50%;
-    height:2.945vw;
-    font-size: 1.3vw;
+    height:9.5%;
+    font-size: 130%;
     border-style: none;
     font-weight: bold;
 `;
-const CardFeatures1=styled.ul`
+const CardFeatures=styled.ul`
     list-style: none;
     padding-inline-start: 0%;
-    padding-bottom: 1.5vw;
-    margin-top:1.04vw;
-    margin-bottom: 1.04vw;
-    @media (max-width: 768px){
-      margin-top:0vw;
-    margin-bottom: 0vw;
-    padding-bottom: 0vw;
-
-    } 
 `;
-const CardFeatures2=styled.ul`
-    list-style: none;
-    padding-inline-start: 0%;
-    padding-bottom: 0.8vw;
-    margin-top:1.04vw;
-    margin-bottom: 1.04vw;
-    @media (max-width: 768px){
-      margin-top:0vw;
-    margin-bottom: 0vw;
-    padding-bottom: 0vw;
-} `;
 const FeaturesListElement=styled.li`
-    font-size:  1.7vw;
-    padding-bottom: 0.5vw;
+    font-size: 180%;
+    padding-top: 3%;
   color: #676767;
     
 
