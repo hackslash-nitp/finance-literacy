@@ -1,0 +1,9 @@
+.highlight{
+    background: white;
+    transition: all 0.5s;
+    color: rgba(26, 21, 21, 0.74);
+}
+
+.highlight:hover{
+    color: #c4bebea6;
+} 
