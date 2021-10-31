@@ -46,7 +46,7 @@ We acknowledge Hackslash Club(NITP) for giving us an opportunity
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+## Live Demo : https://modest-jennings-019733.netlify.app/
 ## Getting Started
 
 First, run the development server:
