@@ -17,7 +17,7 @@ This is a Simple Financial app through which you'll get
                 and you can learn stock market riskfree with our virtual coin 
                 which will behave as the real stock based on the historical data from 
                 the stock market and adjust its value on-demand and Supply.
-		Live Demo: 
+		Live Demo: https://fyncoin-hackslash.netlify.app/
 		Design(Figma) : 
 ## Technology Used:
 MERN(MongoDB,ExpressJS,ReactJS,NodeJS),Stack,Tensorflow Hub
@@ -44,7 +44,7 @@ We acknowledge Hackslash Club(NITP) for giving us an opportunity
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-## Live Demo : https://modest-jennings-019733.netlify.app/
+## Live Demo : https://fyncoin-hackslash.netlify.app/
 ## Getting Started
 
 First, run the development server:
