@@ -37,12 +37,10 @@ We acknowledge Hackslash Club(NITP) for giving us an opportunity
 - [Harsh Anand](https://github.com/its-me-Harsh-Anand)
 
 ## Contributors:
-- [Vikas Kumar Gond](https://github.com/VikasKrGond)
-- [Pulkit Kumar Agarwal](https://github.com/pka5667)
-- [Pragati Priya](https://github.com/pragatipriya20)
-- [Harsh Anand](https://github.com/its-me-Harsh-Anand)
-- [Saizal Sinha](https://github.com/Saizalsinha)
-- [Devansh Srivastava](https://github.com/DevanshSrivastava19)
+<a href = "https://github.com/hackslash-nitp/finance-literacy/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=hackslash-nitp/finance-literacy"/>
+</a>
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
