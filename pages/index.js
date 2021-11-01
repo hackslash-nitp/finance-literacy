@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import  styled from 'styled-components'
-import RecentTransaction from '../../RecentTransaction'
+import RecentTransaction from '../components/dashboard/recentTransaction'
 
 const ModiContainer =  styled.div`
   color: purple; 
