@@ -2,6 +2,7 @@ import { TextDiv,TextH2,TextH1,TextP,Button,ImageDiv } from './getNow.style'
 
 import Image from 'next/image';
 import Head from 'next/head'
+import Link from 'next/link'
 
 function GetNow() {
   return (
@@ -19,7 +20,9 @@ function GetNow() {
           Best in class responsive webpages and landing pages for your business.
           Get one for yourself now at lowest cost ever.
         </TextP>
-        <Button>Get Now</Button>
+        <Link href="/dashboard/id">
+          <Button>Get Now</Button>
+        </Link>
       </TextDiv>
       <ImageDiv>
         <Image src="/images/getNow.png" alt="" width={588} height={563}/>
