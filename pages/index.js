@@ -1,16 +1,16 @@
 import Layout from '../components/layout'
 import  styled from 'styled-components'
+import RecentTransaction from '../../RecentTransaction'
 
-
-const ModiContainer =  styled.div`{
-  color: purple
-}
-`
+const ModiContainer =  styled.div`
+  color: purple; 
+  `
 export default function Home() {
   return (
     <Layout title = "Home Page">
       <ModiContainer>
         Like this random styled-component, we have to render every page
+        <RecentTransaction/>
       </ModiContainer>
 
 
