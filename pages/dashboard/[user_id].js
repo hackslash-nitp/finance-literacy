@@ -1,11 +1,11 @@
 import Layout from '../../components/layout'
 import  styled from 'styled-components'
 import { useRouter } from 'next/router'
-import Sidebar from '../../components/dashboard/Sidebar'
-import MyPortfolio from '../../components/dashboard/MyPortfolio'
-import Profile from '../../components/dashboard/Profile'
-import Graph from '../../components/dashboard/Graph'
-import RecentTransaction from '../../components/dashboard/RecentTransaction'
+import Sidebar from '../../components/dashboard/Sidebar/Sidebar'
+import MyPortfolio from '../../components/dashboard/MyPortfolio/MyPortfolio'
+import Profile from '../../components/dashboard/Profile/Profile'
+import Graph from '../../components/dashboard/Graph/Graph'
+import RecentTransaction from '../../components/dashboard/RecentTransaction/RecentTransaction'
 
 
 const Dashboard = styled.div`{
