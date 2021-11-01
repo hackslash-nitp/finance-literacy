@@ -1,21 +1,49 @@
 import Layout from '../../components/layout'
 import  styled from 'styled-components'
 import { useRouter } from 'next/router'
+import Sidebar from '../../components/dashboard/Sidebar'
+import MyPortfolio from '../../components/dashboard/MyPortfolio'
+import Profile from '../../components/dashboard/Profile'
+import Graph from '../../components/dashboard/Graph'
+import RecentTransaction from '../../components/dashboard/RecentTransaction'
 
 
-const ModiContainer =  styled.div`{
-  color: purple
-}
-`
+const Dashboard = styled.div`{
+  display: grid;
+  grid-template-areas:
+    'Sidebar Center Center AsideRight'
+    'Sidebar Center Center AsideRight'
+}`
+
+const AsideLeft = styled.div`
+  grid-area: Sidebar;
+`;
+const Center = styled.aside`
+  grid-area: Center;
+`;
+const AsideRight = styled.aside`
+  grid-area: AsideRight;
+`;
+
+// const router = useRouter()
 
 
 export default function Home() {
-const router = useRouter()
   return (
     <Layout title = "Dashboard">
-      <ModiContainer>
-        Like this random styled-component, we have to render every page {router.query.user_id}
-      </ModiContainer>
+      <Dashboard>
+        <AsideLeft>
+          <Sidebar/>
+        </AsideLeft>
+        <Center>
+          <MyPortfolio/>
+          <Graph/>
+        </Center>
+        <AsideRight>
+          <Profile/>
+          <RecentTransaction/>
+        </AsideRight>
+      </Dashboard>
     </Layout>
   )
 }
