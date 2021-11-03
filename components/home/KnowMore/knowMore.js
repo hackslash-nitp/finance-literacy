@@ -102,5 +102,5 @@ const ImgKnowMore = styled.div`
   margin-bottom: 0px;
   border: 0px;
   padding: 0px 0px 0px 0px;
-  background-image: url("know.jpg");
+  background-image: url("/images/know.jpg");
 `;
