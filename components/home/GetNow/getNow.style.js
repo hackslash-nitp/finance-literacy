@@ -40,6 +40,7 @@ font-weight: 500;
 font-size: 30px;
 line-height: 52px;
 color: #FFFFFF;
+cursor: pointer;
 `;
 
 export const ImageDiv = styled.div`
