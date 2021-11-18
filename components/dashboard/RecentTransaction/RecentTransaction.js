@@ -73,7 +73,7 @@ const Label = styled.p`
 `;
 
 const Rectangle = styled.ul`
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 380px;
