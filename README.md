@@ -1,5 +1,5 @@
 ---
-Title: 'Web'
+: 'Web'
 ---
 # <p align = "center">Fyncoin</p>
                         
